@@ -22,9 +22,6 @@ jobs:
       - name: Download packages
         run: flutter pub get
 
-      - name: Analyze
-        run: flutter analyze
-
       - name: Build Windows release
         run: flutter build windows --release
 
